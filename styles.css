@@ -1,0 +1,229 @@
+
+:root{
+    --font-nav-btn: 'REM', sans-serif;
+    --font-main: 'Rubik', sans-serif;
+    --text-color-first: #6E7DDB;
+    --text-color-second: #FFFFFF;
+    --text-color-third: #4F4F4F;
+    --bg-color: #0047FF;
+}
+nav{
+    position: fixed;
+    background-color: #FFFFFF;
+    z-index: 100;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    gap: 18vw;
+    padding: 11px 55px;
+}
+nav > ul{
+    gap: 3vw;
+    padding: 48px 20px;
+    margin-bottom: 0;
+}
+nav > a:first-child{
+    position: fixed;
+    left: 4vw;
+    font-family: var(--font-nav-btn);
+    font-size: 29px;
+    font-weight: 600;
+}
+nav ul li a {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-main);
+}
+
+.main{
+    margin-top: 12vh;
+    height: auto;
+    background-image: url('images/grad.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+
+}
+.main + div{
+    width: 80vw;
+    height: 20vh;
+    margin-inline: 10vw;
+    gap: 33px;
+    
+}
+.main header{
+    width: 100%;
+}
+.main p{
+     font-family: var(--font-main);
+     font-size: 16px;
+     font-weight: 500;
+     text-align: center;
+}
+.main div header p:first-child{
+    color: var(--text-color-first);
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 0.32em;
+}
+.main div header p:last-child{
+    font-size: 69px;
+    line-height: 72px;
+}
+.main > div > p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.main div div {
+    margin-top: 8px;
+    background-color: var(--bg-color);
+    border-radius: 88px;
+    width: auto;
+    padding: 12px 24px;
+}
+.main div div p{
+    color: var(--text-color-second);
+}
+
+.product-image{
+    rotate: -10.5deg;
+    position: absolute;
+    left: 35vw;
+    z-index: 1;
+    margin-top: 6vh;
+    width: 28vw;
+    filter: drop-shadow(-15px 15px 15px);
+}
+.main > div > img:first-child{
+    z-index: 1;
+    margin-left: 14px;
+    width: 13%;
+    height: 15%;
+}
+.main > div > img:last-child{
+    z-index: 1;
+    width: 20%;
+    height: 22%;
+    margin-block: 1vh 7vh;
+    margin-right: 14px;
+
+}
+
+.about{
+    height: 100vh;
+    margin-top: 4vh;
+    margin-inline: 10vw;
+}
+.about h1{
+    font-family: var(--font-main);
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.about article{
+    gap: 10vw;
+}
+.about article img{
+    width: 30vw;
+    border-radius: 40px;
+    transform: rotate(1.65deg);
+}
+.about article span{
+    width: 40vw;
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    white-space: pre-line;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+}
+.target{
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 10vh 12vw;
+    gap: 32px;
+
+    background: #000B28;
+
+}
+.target img{
+    position: absolute;
+    right: 1vw;
+    margin-bottom: 25vh;
+    width: 20%;
+}
+.target p{
+    width: 50vw;
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 52px;
+    /* or 141% */
+    letter-spacing: -0.02em;
+    background: linear-gradient(90.17deg, rgba(255, 255, 255, 0.9) 2.49%, rgba(95, 70, 255, 0.9) 31.87%, rgba(255, 255, 255, 0.586523) 67.72%, rgba(255, 255, 255, 0.9) 98.09%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.advantages{
+    height: 100vh;
+}
+.advantages h1{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 15vh;
+}
+.advantages article{
+    position: relative;
+    width: 17vw;
+    height: 40vh;
+    background: #F7F6FB;
+    border-radius: 30px;
+    padding-left: 43px;
+    padding-right: 3%;
+    padding-top: 39px;
+
+}
+.logo-box{
+    width: 110px;
+    height: 110px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.logo-box img{
+    width: 60px;
+}
+.advantages h2{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+.advantages span{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color-third);
+}
+.advantages div{
+    gap: 6vw;
+}
