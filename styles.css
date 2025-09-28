@@ -1,4 +1,45 @@
-
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+@keyframes cubeToInhaler_1 {
+    0% {
+        transform: 
+            translate(0, 0) 
+            scale(1) 
+            rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: 
+            translate(
+                calc(65vw - 50%),  /* X: к центру ингалятора */
+                calc(6vh - 50%)    /* Y: к вертикали ингалятора */
+            ) 
+            scale(0.1) 
+            rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes cubeToInhaler_2 {
+    0% {
+        transform: 
+            translate(0, 0) 
+            scale(1) 
+            rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: 
+            translate(
+                calc(-65vw - 50%),  /* X: к центру ингалятора */
+                calc(-10vh - 50%)    /* Y: к вертикали ингалятора */
+            ) 
+            scale(0.1) 
+            rotate(360deg);
+        opacity: 0;
+    }
+}
 :root{
     --font-nav-btn: 'REM', sans-serif;
     --font-main: 'Rubik', sans-serif;
@@ -104,6 +145,7 @@ nav ul li a {
     margin-left: 14px;
     width: 13%;
     height: 15%;
+    animation: float 3s ease-in-out infinite;
 }
 .main > div > img:last-child{
     z-index: 1;
@@ -111,7 +153,18 @@ nav ul li a {
     height: 22%;
     margin-block: 1vh 7vh;
     margin-right: 14px;
+    animation: float 4s ease-in-out infinite;
+}
+.main > div > img:first-child {
+    animation: cubeToInhaler_1 linear forwards;
+    animation-timeline: scroll(root);
+    animation-range: 0vh 50vh; /* Анимация на первых 50vh скролла */
+}
 
+.main > div > img:last-child {
+    animation: cubeToInhaler_2 linear forwards;
+    animation-timeline: scroll(root);
+    animation-range: 10vh 60vh; /* Начинается позже */
 }
 
 .about{
@@ -159,6 +212,7 @@ nav ul li a {
     right: 1vw;
     margin-bottom: 25vh;
     width: 20%;
+    animation: float 3s ease-in-out infinite;
 }
 .target p{
     width: 50vw;
