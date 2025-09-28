@@ -1,0 +1,35 @@
+{
+  "clicks": [
+    {
+      "clientId": "c5b96ead-7ca7-42fc-b3be-5cd143abbd49",
+      "type": "anchor",
+      "source": "anchor_link",
+      "timestamp": "2025-09-28T19:53:38.787Z",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36 OPR/91.0.0.0"
+    },
+    {
+      "ip": "79.139.249.27",
+      "type": "form",
+      "browser": "Chrome",
+      "device": "Android",
+      "clientId": "c5b96ead-7ca7-42fc-b3be-5cd143abbd49",
+      "timestamp": "2025-09-28T19:53:53.615Z"
+    },
+    {
+      "clientId": "08c3328b-262b-4962-a7e0-3f613ebe2189",
+      "type": "anchor",
+      "source": "anchor_link",
+      "timestamp": "2025-09-28T19:54:17.333Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36"
+    },
+    {
+      "ip": "79.139.249.27",
+      "type": "form",
+      "browser": "Yandex Browser",
+      "device": "Windows",
+      "clientId": "08c3328b-262b-4962-a7e0-3f613ebe2189",
+      "timestamp": "2025-09-28T19:54:31.110Z"
+    }
+  ],
+  "totalClicks": 2
+}

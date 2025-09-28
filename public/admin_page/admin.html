@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ панель</title>
+    <link rel="stylesheet" href="admin_page/styles.css"> </link>
+</head>
+<body>
+    <h1>Админ панель</h1>
+    
+    <div id="loginSection" class="login-form">
+        <h3>Вход в админку</h3>
+        <input type="password" id="passwordInput" placeholder="Введите пароль">
+        <button onclick="login()">Войти</button>
+    </div>
+    
+    <div id="adminPanel" style="display: none;">
+        <h2>Статистика</h2>
+        <div id="stats" class="stats"></div>
+        
+        <h2>Все предзаказы</h2>
+        <div id="orders"></div>
+        
+        <button onclick="logout()">Выйти</button>
+    </div>
+
+    <script src="admin_page/scripts.js"></script>
+</body>
+</html>
