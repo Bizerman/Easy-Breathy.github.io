@@ -729,7 +729,7 @@ footer div p{
 
     }
  }
- @media (max-width: 400px) {
+ @media (max-width: 440px) {
     .main{
         height: 100vh;
     }
