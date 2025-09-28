@@ -87,7 +87,7 @@ main{
 .main{
     margin-top: 12vh;
     height: auto;
-    background-image: url('../images/grad.png');
+    background-image: url('images/grad.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: center;
@@ -419,11 +419,11 @@ input:not(div input),textarea{
 
  }
 #name{
-    background-image:url('../images/ic_name_input.svg');
+    background-image:url('images/ic_name_input.svg');
     padding-left: 36px;
 }
 #email{
-    background-image:url('../images/ic_email.svg');
+    background-image:url('images/ic_email.svg');
     padding-left: 36px;
 }
 [type='checkbox']{
