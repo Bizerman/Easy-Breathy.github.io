@@ -249,7 +249,7 @@ main{
     height: auto;
     background: #F7F6FB;
     border-radius: 30px;
-    padding-left: 43px;
+    padding-left: 3%;
     padding-right: 3%;
     padding-top: 39px;
     padding-bottom: 55px;
@@ -271,6 +271,7 @@ main{
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
+    text-align: center;
 }
 .advantages span{
     font-family: var(--font-main);
@@ -278,6 +279,7 @@ main{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
+    text-align: center;
     color: var(--text-color-third);
 }
 .advantages div:last-child{
@@ -308,12 +310,15 @@ footer > div:nth-child(odd){
     width: 377px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 32px;
     gap: 32px;
-
     border: 1px solid #E7EAEE;
     border-radius: 16px;
+ }
+ .team article > img{
+    height: 280px;
+    
  }
  .teamate{
     gap: 16px;

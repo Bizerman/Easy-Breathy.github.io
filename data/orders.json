@@ -1,26 +1,14 @@
 [
   {
-    "name": "Fio",
+    "name": "Алексей",
     "email": "lesha-utenkov@rambler.ru",
-    "info": "Ajahhweh",
-    "timestamp": "22:53 28.09.2025",
-    "ip": "79.139.249.27",
-    "browser": "Chrome",
-    "device": "Android",
-    "id": 1759089233492,
-    "clientId": "c5b96ead-7ca7-42fc-b3be-5cd143abbd49",
-    "clickId": 1
-  },
-  {
-    "name": "аффафца",
-    "email": "lesha-utenkov@rambler.xn--ru-8kc",
-    "info": "322342",
-    "timestamp": "22:54 28.09.2025",
+    "info": "егекаенаеаме",
+    "timestamp": "01:08 29.09.2025",
     "ip": "79.139.249.27",
     "browser": "Yandex Browser",
     "device": "Windows",
-    "id": 1759089271248,
+    "id": 1759097303821,
     "clientId": "08c3328b-262b-4962-a7e0-3f613ebe2189",
-    "clickId": 3
+    "clickId": 1
   }
 ]
